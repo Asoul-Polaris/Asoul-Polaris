@@ -83,23 +83,23 @@
 //     return 0;
 // }
 
-//switch语法
-int main()
-{
-    int day;
-    scanf("%d", &day);
-    switch (day)
-    {
-    case 1://case后必须是整形常量
-        printf("星期一");
-        break;
-    case 2://case后必须是整形常量
-        printf("星期二");
-        break;
+// //switch语法
+// int main()
+// {
+//     int day;
+//     scanf("%d", &day);
+//     switch (day)
+//     {
+//     case 1://case后必须是整形常量
+//         printf("星期一");
+//         break;
+//     case 2://case后必须是整形常量
+//         printf("星期二");
+//         break;
     
-    default://无法匹配时的默认输出
-        printf("输入错误");
-        break;
-    }
-    return 0;
-}
+//     default://无法匹配时的默认输出
+//         printf("输入错误");
+//         break;
+//     }
+//     return 0;
+// }
